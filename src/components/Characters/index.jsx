@@ -1,15 +1,15 @@
 import './styles.css'
 import CharCard from '../CharCard'
 
-const Characters = ({characterList}) => {
+const Characters = ({ characterList }) => {
     console.log(characterList)
 
-    return(
-        <>    
+    return (
+        <>
             <h1>Meus personagens</h1>
-            
-            {characterList.map((character)=>(
-            <CharCard character = {character}/>
+
+            {characterList.map((character) => (
+                <CharCard character={character} />
             ))}
         </>
     )

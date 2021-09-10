@@ -1,29 +1,30 @@
+
 .alive{
     background-color: blue;
     margin-left: 20px;
     margin-bottom: 20px;
-    height: 320px;
-    width: 300px;
+    height: 250px;
+    width: 230px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    border-radius: 35%;
+    cursor: pointer;
 }
 
 .dead{
     background-color: red;
     margin-left: 20px;
-    height: 320px;
-    width: 300px;
+    height: 250px;
+    width: 230px;
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-}
-
-.all{
-    display: flex;
+   
+     cursor: pointer;
 }
 
 h1{
@@ -33,7 +34,15 @@ h1{
 }
 
 img{
-    width: 180px;
-    height: 180px;
+    width: 130px;
+    height: 130px;
     border-radius: 25px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+h5{
+    margin: 0;
 }
