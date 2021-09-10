@@ -1,0 +1,39 @@
+.alive{
+    background-color: blue;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height: 320px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.dead{
+    background-color: red;
+    margin-left: 20px;
+    height: 320px;
+    width: 300px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.all{
+    display: flex;
+}
+
+h1{
+    width: 100%;
+    margin:2px;
+    padding: 15px;
+}
+
+img{
+    width: 180px;
+    height: 180px;
+    border-radius: 25px;
+}
